@@ -1,5 +1,14 @@
 #Jump Search
-def Jump()
+# Esse conceito é baseado em um elemento previamente ordenado, essa funcionalidade
+# de busca não funcionará em um elemento desordenado  
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+
+def Jump(arraye)
+
+
+
+
+
 end
 
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
