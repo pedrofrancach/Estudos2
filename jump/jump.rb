@@ -9,13 +9,22 @@ arrayi = []
 cont1 = 0.to_i
 cont2 = 0.to_i
 tamanho = arraye.length
+vef = 0.to_i
+marq = false
 
 while cont1 <= tamanho do
     
     if arraye[cont1] > valor
-    
+
+        while arraye[cont1] <= vef do
             
-    
+            if arraye[cont1] == vef
+            
+                puts "O valor informado encontra-se na posição #{cont1} da lista"
+                marq = true
+
+            end
+        end
     end
 
 end
