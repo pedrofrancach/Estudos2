@@ -10,6 +10,8 @@ tamanho = arraye.length
 arrayi = arraye.sort  
 arrayp = []
 calc = 0.to_i
+vef2 = 0.to_i
+
 
 #puts arrayi
 #puts "caseta"
@@ -26,15 +28,15 @@ while cont1 < tamanho do
 
     if vef1 != arrayi[cont1]
     
-        calc = arrayi[cont1] - vef1 - 1
+        calc = arrayi[cont1] - vef1 
         puts "entrou vef1 é #{vef1} e arrayi[cont1] é #{arrayi[cont1]} e calc é #{calc}" 
-
+        vef2 = vef1
         until cont2 != calc do
            #puts "entrou1"
-            arrayp << vef1 + 1
-
+            arrayp << vef2 
+ 
             cont2 = cont2 + 1
-
+            vef2 = vef2 + 1
         end
 
         cont2 = 0.to_i
