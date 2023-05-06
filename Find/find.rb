@@ -11,7 +11,7 @@ arrayi = arraye.sort
 arrayp = []
 calc = 0.to_i
 vef2 = 0.to_i
-numero = 1.to_i
+
 
 
 
@@ -41,14 +41,12 @@ while cont1 < tamanho do
         cont2 = 0.to_i
         vef1 = calc + vef2
         calc = 0.to_i
-         puts "essa caseta é #{vef1}"
-    
+           
     end
    
     vef1 = vef1 + 1
     cont1 = cont1 + 1
-    numero =  numero + 1
-
+   
 end
 
 puts arrayp
