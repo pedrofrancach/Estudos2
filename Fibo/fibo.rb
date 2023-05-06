@@ -2,14 +2,18 @@
 def fibo(arraye)
 
 tamanho = arraye.length    
-var1 = 0.to_i
-calc = arraye[tamanho].to_i
+var1 = arraye[tamanho - 2].to_i
+var2 = arraye[tamanho - 1].to_i
+calc = 0.to_i
+
 arrayi = arraye
 n = 0.to_i
+puts var1
+puts calc
 
 while n < 10 do
 
-    calc = var1.to_i + calc
+    calc = calc + var1 
 
     arrayi << calc
 
