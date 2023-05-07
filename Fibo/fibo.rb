@@ -8,17 +8,16 @@ calc = 0.to_i
 
 arrayi = arraye
 n = 0.to_i
-puts var1
-#puts calc
+calc = var1 + var2
 
-while n < 10 do
+while n < 3 do
 
-    calc = calc + var1 
+    calc = calc + arrayi[var2] 
 
     arrayi << calc
 
     n = n + 1
-    
+    var2 = arrayi.length
 end
 
 puts arrayi
