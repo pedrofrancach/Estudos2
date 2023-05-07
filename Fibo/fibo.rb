@@ -10,9 +10,9 @@ arrayi = arraye
 n = 0.to_i
 
 
-puts var1
-puts var2
-puts calc
+#puts var1
+#puts var2
+#puts calc
 
 while n < 3 do
 
@@ -20,9 +20,9 @@ while n < 3 do
 
         calc = var1 + var2
 
+
+         kjhkjsdhjksdhfksdhf kjashdkjh kajhsd { }
     end
-
-
 
     calc = calc.to_i + arrayi[var2].to_i 
 
