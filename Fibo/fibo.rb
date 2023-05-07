@@ -9,7 +9,7 @@ calc = 0.to_i
 arrayi = arraye
 n = 0.to_i
 puts var1
-puts calc
+#puts calc
 
 while n < 10 do
 
