@@ -8,11 +8,23 @@ calc = 0.to_i
 
 arrayi = arraye
 n = 0.to_i
-calc = var1 + var2
+
+
+puts var1
+puts var2
+puts calc
 
 while n < 3 do
 
-    calc = calc + arrayi[var2] 
+    if calc == 0
+
+        calc = var1 + var2
+
+    end
+
+
+
+    calc = calc.to_i + arrayi[var2].to_i 
 
     arrayi << calc
 
@@ -20,7 +32,7 @@ while n < 3 do
     var2 = arrayi.length
 end
 
-puts arrayi
+#puts arrayi
 
 end
 
