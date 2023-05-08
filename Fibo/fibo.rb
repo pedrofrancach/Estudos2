@@ -1,8 +1,8 @@
 #Fibonacci Search
 def fibo(arraye)
 
+arrayi = arraye  
 tamanho = arrayi.length 
-arrayi = arraye   
 var1 = arrayi[tamanho - 2].to_i
 var2 = arrayi[tamanho - 1].to_i
 calc = 0.to_i
@@ -21,17 +21,22 @@ while n < 3 do
 
         calc = var1 + var2
 
+    else
+
+        calc = calc.to_i + arrayi[var2].to_i 
+        n = n + 1
+
     end
-
-    calc = calc.to_i + arrayi[var2].to_i 
-
+    puts "arrayi primeiro var2 é :#{arrayi[var2]}"
     arrayi << calc
+    var2 = arrayi.length.to_i
+    var2 = var2 - 1
+    puts "arrayi segundo var2 é :#{arrayi[var2]}"
+   
 
-    n = n + 1
-    var2 = arrayi.length
 end
 
-puts arrayi
+#puts arrayi
 
 end
 
