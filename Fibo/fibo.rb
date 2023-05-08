@@ -15,7 +15,7 @@ n = 0.to_i
 #puts var2
 #puts calc
 
-while n < 3 do
+while n < 10 do
 
     if calc == 0
 
@@ -27,16 +27,16 @@ while n < 3 do
         n = n + 1
 
     end
-    puts "arrayi primeiro var2 é :#{arrayi[var2]}"
+   
+ #   puts "arrayi primeiro var2 é :#{arrayi[var2]}"
     arrayi << calc
     var2 = arrayi.length.to_i
-    var2 = var2 - 1
-    puts "arrayi segundo var2 é :#{arrayi[var2]}"
+    var2 = var2 - 2
+#    puts "arrayi segundo var2 é :#{arrayi[var2]}"
    
-
 end
 
-#puts arrayi
+puts arrayi
 
 end
 
