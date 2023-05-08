@@ -20,8 +20,6 @@ while n < 3 do
 
         calc = var1 + var2
 
-
-         kjhkjsdhjksdhfksdhf kjashdkjh kajhsd { }
     end
 
     calc = calc.to_i + arrayi[var2].to_i 
