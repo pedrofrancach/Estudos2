@@ -1,12 +1,13 @@
 #Fibonacci Search
 def fibo(arraye)
 
-tamanho = arraye.length    
-var1 = arraye[tamanho - 2].to_i
-var2 = arraye[tamanho - 1].to_i
+tamanho = arrayi.length 
+arrayi = arraye   
+var1 = arrayi[tamanho - 2].to_i
+var2 = arrayi[tamanho - 1].to_i
 calc = 0.to_i
 
-arrayi = arraye
+
 n = 0.to_i
 
 
@@ -30,7 +31,7 @@ while n < 3 do
     var2 = arrayi.length
 end
 
-#puts arrayi
+puts arrayi
 
 end
 
