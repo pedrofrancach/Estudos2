@@ -39,6 +39,13 @@ def selec(arraye)
 
     fibo(arraye)
 
+arrayi = arraye
+tamanho = arrayi.length - 1
+
+
+
+
+
 end
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 
