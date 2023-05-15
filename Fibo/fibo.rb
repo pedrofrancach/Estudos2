@@ -11,6 +11,8 @@ calc = 0.to_i
 n = 0.to_i
 giro = 1.to_i 
 
+
+
 while n < giro do
 
     if calc == 0
@@ -20,7 +22,7 @@ while n < giro do
     else
 
         calc = calc.to_i + arrayi[var2].to_i 
-        n = n + 1
+        #n = n + 1
 
     end
    
@@ -33,7 +35,7 @@ while n < giro do
     arrayi << calc
     var2 = arrayi.length.to_i
     var2 = var2 - 2
-         
+puts "esse é o giro: #{giro}"         
 
 end
 
