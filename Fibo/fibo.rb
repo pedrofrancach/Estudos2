@@ -26,11 +26,11 @@ while n < giro do
 
     end
    
-   #if calc < ext
+   if calc < ext
 
        # giro = giro + 1
 
-   #end
+   end
    
     arrayi << calc
     var2 = arrayi.length.to_i
