@@ -42,17 +42,17 @@ puts arrayi
 end
 
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-def selec(arraye)
+#def selec(arraye)
 
-arrayi = arraye
-tamanho = arrayi.length - 1
+#arrayi = arraye
+#tamanho = arrayi.length - 1
 
 #fibo(arraye)
 
 
 
 
-end
+#end
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 
 lista = [0,1,1,2,3,5]
