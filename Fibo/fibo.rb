@@ -48,25 +48,27 @@ arraye = arrayi
 end
 
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-def selec(arraye)
-
-arrayi = arraye
-tamanho = arrayi.length - 1
-
-fibo(arraye)
+def selec(arraye, valor)
 
 
+if arraye.include? valor
 
+    puts "Esse é um número Fibonnacci"
+
+else
+
+    puts "NÔA"
+
+end
 
 end
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 
 lista = [0,1,1,2,3,5]
 
-pesquisa = 75
+pesquisa = gets.to_i
 
 fibo(lista, pesquisa)
 
+selec(lista, pesquisa)
 
-
-puts "arraye é: #{lista}"
