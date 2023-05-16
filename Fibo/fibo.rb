@@ -37,26 +37,28 @@ while n < giro do
     arrayi << calc
     var2 = arrayi.length.to_i
     var2 = var2 - 2 #S
-puts "esse é o giro: #{giro}"         
-puts "esse é o calc: #{calc}"
+         
+
 end
 
-puts arrayi
+
+
+arraye = arrayi
 
 end
 
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-#def selec(arraye)
+def selec(arraye)
 
-#arrayi = arraye
-#tamanho = arrayi.length - 1
+arrayi = arraye
+tamanho = arrayi.length - 1
 
-#fibo(arraye)
-
-
+fibo(arraye)
 
 
-#end
+
+
+end
 #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 
 lista = [0,1,1,2,3,5]
@@ -64,3 +66,7 @@ lista = [0,1,1,2,3,5]
 pesquisa = 75
 
 fibo(lista, pesquisa)
+
+
+
+puts "arraye é: #{lista}"
