@@ -28,7 +28,7 @@ while n < giro do
    
    if calc < ext
 
-       # giro = giro + 1
+        giro = giro + 1
 
    end
    
