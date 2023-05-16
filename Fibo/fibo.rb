@@ -22,21 +22,23 @@ while n < giro do
     else
 
         calc = calc.to_i + arrayi[var2].to_i 
-        #n = n + 1
+        
 
     end
    
-   if calc < ext
+    n = n + 1
+
+    if calc < ext
 
         giro = giro + 1
 
-   end
+    end
    
     arrayi << calc
     var2 = arrayi.length.to_i
     var2 = var2 - 2
 puts "esse é o giro: #{giro}"         
-
+puts "esse é o calc: #{calc}"
 end
 
 puts arrayi
