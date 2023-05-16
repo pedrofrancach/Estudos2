@@ -36,7 +36,7 @@ while n < giro do
    
     arrayi << calc
     var2 = arrayi.length.to_i
-    var2 = var2 - 2
+    var2 = var2 - 2 #S
 puts "esse é o giro: #{giro}"         
 puts "esse é o calc: #{calc}"
 end
