@@ -6,10 +6,17 @@ def selec(arraya, arrayb)
 tamanho = arraya.length
 cont = 0.to_i
 arrayi = arraya
+arm = 1000.to_i
 
 while cont < tamanho do
 
+    if arrayi[cont] < arm
+    
+        arm = arrayi[cont]
 
+    end 
+
+    cont = cont + 1
     
 end
 
