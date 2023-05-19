@@ -3,7 +3,7 @@
 #
 def selec(arraya, arrayb)
 
-tamanho = arraya.length
+tamanho = arraya.length - 1
 tamanho2 = arraya.length
 cont = 0.to_i
 arrayi = arraya
@@ -18,9 +18,9 @@ n = 0.to_i
         if arrayi[cont].to_i > arrayi[tamanho].to_i && cont == 0.to_i
     
            arm = arrayi[cont]
-            
+           puts "tamanho é #{arrayi[tamanho]}"
            arrayi[cont] = arrayi[tamanho]
-           puts "cont é#{cont}" 
+           puts "cont é#{arrayi[cont]}" 
            arrayi[tamanho] = arm
         
         end 
