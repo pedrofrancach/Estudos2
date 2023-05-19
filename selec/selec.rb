@@ -15,10 +15,12 @@ n = 0.to_i
 
     while cont < tamanho do
 
-        if arrayi[cont].to_i > arrayi[tamanho].to_i
+        if arrayi[cont].to_i > arrayi[tamanho].to_i && cont == 0.to_i
     
            arm = arrayi[cont]
+            
            arrayi[cont] = arrayi[tamanho]
+           puts "cont é#{cont}" 
            arrayi[tamanho] = arm
         
         end 
@@ -35,6 +37,7 @@ n = 0.to_i
 #end
 
 puts arrayi
+#puts "é esse #{arm}"
 
 end
 
