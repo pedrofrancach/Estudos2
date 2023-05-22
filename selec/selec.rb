@@ -49,6 +49,9 @@ n = 0.to_i
    # tamanho = arrayi.length
    # arrayb << arm
    # n = n + 1
+
+   cont = cont + 1
+
    end
 
 #end
