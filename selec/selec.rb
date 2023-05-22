@@ -11,7 +11,7 @@ arm = 1000.to_i
 posi = 0.to_i
 n = 0.to_i
 
-#while n < tamanho2 do
+while n < tamanho2 do
 
    while cont < tamanho do
 
@@ -35,29 +35,11 @@ n = 0.to_i
     
    end
 
-   cont = 0.to_i
-
-   while cont < tamanho do
-
-      if arrayi[cont] > arrayi[cont + 1]
-
-         arm = arrayi[cont]
-         arrayi[cont] = arrayi[cont + 1]
-         arrayi[cont + 1] = arm
-      end  
-   # arrayi.delete_at(cont)
-   # tamanho = arrayi.length
-   # arrayb << arm
-   # n = n + 1
-
-   cont = cont + 1
-
-   end
-
-#end
+    n = n + 1
+   
+end
 
 puts arrayi
-#puts "é esse #{arm}"
 
 end
 
