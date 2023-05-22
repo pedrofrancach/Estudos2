@@ -36,6 +36,7 @@ while n < tamanho2 do
    end
 
     n = n + 1
+    cont = 0.to_i
    
 end
 
