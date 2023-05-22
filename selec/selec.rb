@@ -13,26 +13,43 @@ n = 0.to_i
 
 #while n < tamanho2 do
 
-    while cont < tamanho do
+   while cont < tamanho do
 
-        if arrayi[cont].to_i > arrayi[tamanho].to_i && cont == 0.to_i
-    
-           arm = arrayi[cont]
-           puts "tamanho é #{arrayi[tamanho]}"
-           arrayi[cont] = arrayi[tamanho]
-           puts "cont é#{arrayi[cont]}" 
-           arrayi[tamanho] = arm
-        
-        end 
+         if arrayi[cont].to_i > arrayi[tamanho].to_i && cont == 0.to_i
+            
+            arm = arrayi[cont]
+            #puts "tamanho é #{arrayi[tamanho]}"
+            arrayi[cont] = arrayi[tamanho]
+            #puts "cont é#{arrayi[cont]}" 
+            arrayi[tamanho] = arm
+                            
+         elsif arrayi[cont] > arrayi[cont + 1]
+
+            arm = arrayi[cont]
+            arrayi[cont] = arrayi[cont + 1]
+            arrayi[cont + 1] = arm            
+                    
+         end 
  
-        cont = cont + 1
+         cont = cont + 1
     
-    end
+   end
 
- #   arrayi.delete_at(cont)
-  #  tamanho = arrayi.length
+   cont = 0.to_i
+
+   while cont < tamanho do
+
+      if arrayi[cont] > arrayi[cont + 1]
+
+         arm = arrayi[cont]
+         arrayi[cont] = arrayi[cont + 1]
+         arrayi[cont + 1] = arm
+      end  
+   # arrayi.delete_at(cont)
+   # tamanho = arrayi.length
    # arrayb << arm
    # n = n + 1
+   end
 
 #end
 
