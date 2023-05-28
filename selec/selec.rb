@@ -37,10 +37,12 @@ while n < tamanho2 do
 
     n = n + 1
     cont = 0.to_i
-   
+
 end
 
 puts arrayi
+puts arraya
+puts arrayb
 
 end
 
