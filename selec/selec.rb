@@ -41,8 +41,7 @@ while n < tamanho2 do
 end
 
 puts arrayi
-#puts arraya
-#puts arrayb
+
 
 end
 
