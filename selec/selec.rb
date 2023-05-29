@@ -18,9 +18,9 @@ while n < tamanho2 do
          if arrayi[cont].to_i > arrayi[tamanho].to_i && cont == 0.to_i
             
             arm = arrayi[cont]
-            puts "tamanho é #{arrayi[tamanho]}"
+            #puts "tamanho é #{arrayi[tamanho]}"
             arrayi[cont] = arrayi[tamanho]
-            puts "cont é#{arrayi[cont]}" 
+            #puts "cont é#{arrayi[cont]}" 
             arrayi[tamanho] = arm
                             
          elsif arrayi[cont] > arrayi[cont + 1]
